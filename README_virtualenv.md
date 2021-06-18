@@ -19,6 +19,8 @@
 #### 4. Install python wheels
     
     pip3 install <package-name>
+
+    python3 -m pip install <package-name>
     
 #### 5. Officially install tensorflow-gpu on Jetson
 
@@ -37,4 +39,11 @@
 
     deactivate
 
-    
+
+#### 8. Install virtualenvwrapper
+
+    # on macOS / Linux
+    pip install --user virtualenvwrapper
+    # then make Bash load virtualenvwrapper automatically
+    echo "source /home/zzhu/.local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+    source ~/.bashrc
